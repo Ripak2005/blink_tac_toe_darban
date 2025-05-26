@@ -1,61 +1,59 @@
-# 🚀 Blink Tac Toe - Darban.ai Frontend Challenge
+# 🚀 Blink Tac Toe – Darban.ai Frontend Challenge
 
-A fun twist on classic Tic Tac Toe — now with emojis, vanishing logic, and category-based moves! 🎮
-
-
----
-
-## 🔗 Live Demo
-
-👉 [Click to Play Live](https://blink-tac-toe-darban.vercel.app/)
+A creative spin on the classic Tic Tac Toe game built with React, enhanced with custom emoji categories, a vanishing rule, and a fun interactive experience. Built for the Darban.ai Frontend Developer Challenge.
 
 ---
 
-## 🧠 Features
+## 🧰 Tech Stack
 
-- 🔁 Turn-based 2-player mode
-- 😎 Random emojis from selected category each turn
-- 💨 Vanishing logic (only 3 emojis per player using FIFO)
-- 🧠 Smart win-checking logic (emoji match, 3 in a line)
-- 🎉 Confetti + 🔊 Sound on win!
-- 📱 Responsive for mobile & desktop
-- ❓ Built-in Help/Rules section
-- 🔁 Restart & Play Again buttons
+- ⚛️ React.js
+- 🎨 CSS (custom styling and responsive layout)
+- 🔊 use-sound (for win sound effects)
+- 🎉 react-confetti (for confetti animation)
+- 📦 Deployed on Vercel
 
 ---
 
-## 🛠 Tech Stack
+## 😎 Emoji Categories
 
-- **React.js** (via Vite)
-- **CSS / Custom Styling**
-- `react-confetti` for animations
-- `use-sound` for sound effects
-- **Deployed with Vercel**
+Each player chooses one of the following categories before the game starts:
 
----
+- **Animals**: 🐶 🐱 🐵 🐰
+- **Food**: 🍕 🍟 🍔 🍩
+- **Sports**: ⚽ 🏀 🏈 🎾
 
-## 🧪 Vanishing Logic
-
-- Each player can have **only 3 active emojis** on the board.
-- When trying to place a 4th emoji:
-  - Their **oldest emoji disappears** automatically (FIFO).
-  - That specific cell becomes **empty and reusable**.
-  - Players **can't place the new emoji on the vanished cell immediately**.
+On each turn, a random emoji from the selected category is assigned to the player.
 
 ---
 
-## 🏆 Win Condition
+## 💨 Vanishing Feature (FIFO Logic)
 
-- Player wins by forming 3 emojis **in a row**:
-  - Horizontally, vertically, or diagonally.
-  - Only their own emojis count.
+To keep the board dynamic:
+
+- Players can only have **3 active emojis** on the board at any time.
+- When a **4th emoji** is placed:
+  - The **oldest emoji disappears** automatically using **FIFO (First In, First Out)** logic.
+  - The player **cannot place the new emoji on the vanished spot** immediately.
+  - The cell becomes **empty and available** for future moves.
+
+This rule forces strategy and memory, adding a unique twist to classic Tic Tac Toe.
 
 ---
 
-## 📦 How to Run Locally
+## 💡 What I'd Improve With More Time
 
-```bash
-git clone https://github.com/Ripak2005/blink-tac-toe.git
-cd blink-tac-toe
-npm install
-npm run dev
+- 🎯 Add highlight animation for the winning combination
+- 🎵 Background music toggle + sound effects per move
+- 📊 Multi-round scoreboard & match history
+- 👥 Online multiplayer with socket.io
+- 🧠 Smarter AI bot for single-player mode
+- 🌙 Dark mode toggle with themed emoji sets
+
+---
+
+## ✅ Summary
+
+This project demonstrates dynamic game logic, user interaction, and playful design — built with clean modular React components and enhanced with animation & sound. Built from scratch with love for the Darban.ai team to enjoy.
+
+> Submitted for: **Frontend Developer Challenge – Darban.ai**  
+> Built by: **Ripak Raj** ✨
