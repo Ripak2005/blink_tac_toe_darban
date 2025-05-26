@@ -6,7 +6,7 @@ A creative spin on the classic Tic Tac Toe game built with React, enhanced with 
 
 ## 🧰 Tech Stack
 
-- ⚛️ React.js
+- ⚛️ React.js (with Vite bundler)
 - 🎨 CSS (custom styling and responsive layout)
 - 🔊 use-sound (for win sound effects)
 - 🎉 react-confetti (for confetti animation)
@@ -42,6 +42,9 @@ This rule forces strategy and memory, adding a unique twist to classic Tic Tac T
 
 ## 💡 What I'd Improve With More Time
 
+If I had more time, I would have expanded the game to include the following:
+
+
 - 🎯 Add highlight animation for the winning combination
 - 🎵 Background music toggle + sound effects per move
 - 📊 Multi-round scoreboard & match history
@@ -50,6 +53,17 @@ This rule forces strategy and memory, adding a unique twist to classic Tic Tac T
 - 🌙 Dark mode toggle with themed emoji sets
 
 ---
+
+## ✨ Bonus Features / Creative Additions
+
+- 🎉 Confetti animation on win using `react-confetti`
+- 🔊 Win sound effect using `use-sound`
+- ❓ Help/Rules modal for first-time users
+- 📱 Fully responsive layout for mobile and desktop
+- 😎 Emoji category selector for both players before game starts
+- 💨 Strategic vanishing emojis using FIFO logic
+- 🔁 Restart & Play Again functionality for instant replay
+
 
 ## ✅ Summary
 
