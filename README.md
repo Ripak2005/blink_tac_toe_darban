@@ -2,13 +2,12 @@
 
 A fun twist on classic Tic Tac Toe — now with emojis, vanishing logic, and category-based moves! 🎮
 
-![Blink Tac Toe Banner](https://img.shields.io/badge/Built%20With-React-blue?style=for-the-badge)
 
 ---
 
 ## 🔗 Live Demo
 
-👉 [Click to Play Live](https://your-vercel-url.vercel.app)
+👉 [Click to Play Live](https://blink-tac-toe-darban.vercel.app/)
 
 ---
 
@@ -56,7 +55,7 @@ A fun twist on classic Tic Tac Toe — now with emojis, vanishing logic, and cat
 ## 📦 How to Run Locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/blink-tac-toe.git
+git clone https://github.com/Ripak2005/blink-tac-toe.git
 cd blink-tac-toe
 npm install
 npm run dev
